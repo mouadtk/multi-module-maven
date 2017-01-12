@@ -1,0 +1,6 @@
+#surefire_0
+#Wed Jan 11 23:20:55 UTC 2017
+user.dir=C\:\\Users\\Mailer\\Documents\\step-by-step\\opm-platform\\opm-db-access-manager
+localRepository=C\:\\Users\\Mailer\\.m2\\repository
+-Dmaven.test.skip=false
+basedir=C\:\\Users\\Mailer\\Documents\\step-by-step\\opm-platform\\opm-db-access-manager
