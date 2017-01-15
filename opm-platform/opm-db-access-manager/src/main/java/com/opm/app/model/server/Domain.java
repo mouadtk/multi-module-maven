@@ -1,4 +1,4 @@
-package com.opm.app.model;
+package com.opm.app.model.server;
 
 import java.util.Date;
 
@@ -9,6 +9,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.opm.app.model.SupperClass;
 import com.opm.app.model.enumeration.DomainState;
 
 @Entity

@@ -1,6 +1,6 @@
 package com.opm.app.dao;
 
-import com.opm.app.model.ServerIP;
+import com.opm.app.model.server.ServerIP;
 
 public interface IpDao {
 

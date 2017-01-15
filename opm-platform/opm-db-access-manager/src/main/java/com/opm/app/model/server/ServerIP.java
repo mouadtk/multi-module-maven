@@ -1,11 +1,13 @@
 /**
  * 
  */
-package com.opm.app.model;
+package com.opm.app.model.server;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
+
+import com.opm.app.model.SupperClass;
 
 /**
  * @author Mouad-tk

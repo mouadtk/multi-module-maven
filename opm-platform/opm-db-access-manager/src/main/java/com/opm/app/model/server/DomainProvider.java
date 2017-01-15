@@ -1,9 +1,11 @@
 /**
  * 
  */
-package com.opm.app.model;
+package com.opm.app.model.server;
 
 import javax.persistence.Entity;
+
+import com.opm.app.model.SupperClass;
 
 /**
  * @author Mouad-tk

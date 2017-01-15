@@ -1,12 +1,14 @@
 /**
  * 
  */
-package com.opm.app.model;
+package com.opm.app.model.server;
 
 import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
+
+import com.opm.app.model.SupperClass;
 
 /**
  * @author Mouad-tk

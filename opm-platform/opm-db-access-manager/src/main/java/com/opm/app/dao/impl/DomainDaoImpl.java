@@ -11,9 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.opm.app.dao.DomainDao;
-import com.opm.app.model.Domain;
-import com.opm.app.model.DomainProvider;
 import com.opm.app.model.enumeration.DomainState;
+import com.opm.app.model.server.Domain;
+import com.opm.app.model.server.DomainProvider;
 
 @Repository("domainDao")
 public class DomainDaoImpl implements DomainDao{

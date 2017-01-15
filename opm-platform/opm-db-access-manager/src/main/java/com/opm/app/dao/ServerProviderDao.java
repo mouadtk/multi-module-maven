@@ -2,7 +2,7 @@ package com.opm.app.dao;
 
 import java.util.List;
 
-import com.opm.app.model.ServerProvider;
+import com.opm.app.model.server.ServerProvider;
 
 public interface ServerProviderDao {
 

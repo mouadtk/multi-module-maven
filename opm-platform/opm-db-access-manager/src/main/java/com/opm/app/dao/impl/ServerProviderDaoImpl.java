@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.opm.app.dao.ServerProviderDao;
-import com.opm.app.model.ServerProvider;
+import com.opm.app.model.server.ServerProvider;
 
 @Repository("serverProviderDao")
 public class ServerProviderDaoImpl implements ServerProviderDao {

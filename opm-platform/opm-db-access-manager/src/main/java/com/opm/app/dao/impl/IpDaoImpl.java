@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.opm.app.dao.IpDao;
-import com.opm.app.model.ServerIP;
+import com.opm.app.model.server.ServerIP;
 
 @Repository
 public class IpDaoImpl implements IpDao{

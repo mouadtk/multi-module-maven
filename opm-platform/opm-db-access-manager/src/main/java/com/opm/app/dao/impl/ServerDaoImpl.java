@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.opm.app.dao.ServerDao;
-import com.opm.app.model.Server;
 import com.opm.app.model.enumeration.InstallationStatus;
+import com.opm.app.model.server.Server;
 
 @Repository("serverDao")
 public class ServerDaoImpl implements ServerDao{

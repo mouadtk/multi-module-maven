@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.opm.app.dao.DomainProviderDao;
-import com.opm.app.model.DomainProvider;
+import com.opm.app.model.server.DomainProvider;
 
 @Repository
 public class DomainProviderDaoImpl implements DomainProviderDao{

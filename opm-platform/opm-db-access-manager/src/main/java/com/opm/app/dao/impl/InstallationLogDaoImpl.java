@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.opm.app.dao.InstallationLogDao;
-import com.opm.app.model.InstallationLog;
+import com.opm.app.model.server.InstallationLog;
 
 @Repository
 public class InstallationLogDaoImpl implements InstallationLogDao{

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.opm.app.model;
+package com.opm.app.model.server;
 
 import java.util.Set;
 
@@ -14,6 +14,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.opm.app.model.SupperClass;
 import com.opm.app.model.enumeration.InstallationStatus;
 import com.opm.app.model.enumeration.ServerState;
 
@@ -49,9 +50,6 @@ public class Server extends SupperClass{
 	Set<ServerIP> ipserver;
 	
 	
-	public Server(String string) {
-		// 
-	}
 	public String getName() {
 		return name;
 	}
